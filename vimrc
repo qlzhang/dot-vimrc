@@ -14,12 +14,13 @@ syntax on
 "--------
 " color scheme
 set background=dark
-color solarized
+"color solarized
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
 au WinEnter * set cursorline cursorcolumn
-set cursorline cursorcolumn
+"set cursorline cursorcolumn
+set cursorline 
 
 " search
 set incsearch
