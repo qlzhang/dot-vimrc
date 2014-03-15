@@ -18,9 +18,10 @@ set background=dark
 
 " highlight current line
 au WinLeave * set nocursorline nocursorcolumn
-au WinEnter * set cursorline cursorcolumn
+"au WinEnter * set cursorline cursorcolumn
+au WinEnter * set cursorline
 "set cursorline cursorcolumn
-set cursorline 
+set cursorline
 
 " search
 set incsearch
